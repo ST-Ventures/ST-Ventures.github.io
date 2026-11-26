@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events | ST Ventures</title><meta name="description" content="Events and promotion from ST Ventures, including Monitor in Norwich.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#E8EDF1;--ink:#0F1E2B;--mist:#C5D1D9;--pine:#1B6B57;--font:"Archivo","Helvetica Neue",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--font);font-size:1.0625rem;line-height:1.6}
+a{color:inherit}a:focus-visible{outline:3px solid var(--pine);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.5rem}
+header{padding:1.25rem 0}header .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.mark{font-weight:800;letter-spacing:-.01em;text-decoration:none;white-space:nowrap}
+nav{display:flex;flex-wrap:wrap;gap:.65rem 1.35rem}nav a{text-decoration:none;font-weight:600;font-size:.96rem}
+nav a:hover,nav a[aria-current="page"]{color:var(--pine);text-decoration:underline;text-underline-offset:4px}
+.hero{padding:4.5rem 0 3rem}.eyebrow{color:var(--pine);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;margin-bottom:1rem}
+h1{font-size:clamp(3.2rem,10vw,7rem);font-weight:900;line-height:.88;letter-spacing:-.055em;max-width:12ch}
+.hero p{max-width:42rem;margin-top:1.7rem;font-size:clamp(1.15rem,2.5vw,1.4rem);line-height:1.45}
+section{padding:2.5rem 0}h2{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;line-height:1.05;letter-spacing:-.03em;max-width:22ch;margin-bottom:1.2rem}
+h3{font-size:1.35rem;line-height:1.2;margin-bottom:.6rem}p+p{margin-top:1rem}.cards{display:grid;grid-template-columns:1fr;gap:1.25rem;margin-top:2rem}
+.card{background:rgba(255,255,255,.52);border-top:4px solid var(--pine);padding:1.4rem;min-height:100%}
+.art-panel{min-height:150px;display:flex;align-items:flex-end;padding:1.2rem;margin:-1.4rem -1.4rem 1.2rem;color:var(--paper);background:linear-gradient(135deg,#0F1E2B,#1B6B57);font-weight:800;font-size:clamp(1.3rem,3vw,2rem);letter-spacing:-.03em}
+.art-panel.alt{background:linear-gradient(135deg,#263746,#647D8B)}.art-panel.light{color:var(--ink);background:linear-gradient(135deg,#C5D1D9,#E8EDF1)}
+.btn{display:inline-block;margin-top:1.3rem;padding:.8rem 1.35rem;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:700;border-radius:999px}
+.btn:hover{background:var(--pine)}.note{border-left:3px solid var(--pine);padding:.7rem 1rem;margin-top:1.5rem;color:#344653;font-size:.94rem}
+.contact{background:var(--ink);color:var(--paper);padding:2.5rem 0;margin-top:2rem}.contact a{color:var(--paper)}
+footer{padding:2rem 0;font-size:.9rem;border-top:1px solid var(--mist);margin-top:2rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+@media(min-width:48rem){.cards{grid-template-columns:repeat(2,1fr)}}@media(min-width:64rem){.cards.three{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:42rem){header .wrap{align-items:flex-start;flex-direction:column}nav{gap:.55rem 1rem}.hero{padding-top:3rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header><div class="wrap"><a class="mark" href="index.html">ST Ventures</a>
+<nav aria-label="Main navigation"><a href="index.html">Home</a>
+      <a href="music.html">Music</a>
+      <a href="events.html" aria-current="page">Events</a>
+      <a href="vst.html">VST</a></nav></div></header>
+<main>
+<section class="hero"><div class="wrap"><p class="eyebrow">ST Ventures · Live and local</p><h1>Events</h1><p>Creating space for original electronic music and giving independent artists the opportunity to be heard.</p></div></section>
+<section><div class="wrap"><h2>Monitor</h2><div class="cards">
+<article class="card"><div class="art-panel alt">MONITOR · NORWICH</div><h3>Monitor at The Rose NR1</h3><p>Monitor gives original electronic artists a voice in a sea of guitar-laden cover bands. The evening offers local talent a longer set in a relaxed space.</p></article>
+<article class="card"><div class="art-panel light">Independent artists</div><h3>Artist-first promotion</h3><p>A platform for local electronic musicians to share original work and connect with an audience.</p></article>
+</div><p class="note">Upcoming event dates, line-ups, ticket links and venue details can be added here when they are confirmed.</p></div></section>
+<section class="contact"><div class="wrap"><h2>Interested in playing?</h2><p>If you're an electronic artist or would like to know more about Monitor, get in touch.</p><a class="btn" href="mailto:hello@stventures.example">Event enquiries</a></div></section>
+</main>
+<footer><div class="wrap"><span>&copy; <span id="year">2026</span> ST Ventures</span><span>All rights reserved.</span></div></footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body></html>
