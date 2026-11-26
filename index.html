@@ -66,18 +66,13 @@
   .focus div { border-top: 4px solid var(--pine); padding-top: 1rem; }
   .dark .focus div { border-color: var(--mist); }
   .focus h3 { font-size: 1.375rem; font-weight: 700; margin-bottom: 0.5rem; }
+  
+  .feedback h2 { max-width: 16ch; }
+  .feedback a.mail { display: inline-block; margin-top: 1rem; font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 700; font-stretch: 105%; }
 
-  .portfolio { margin-top: 3rem; list-style: none; }
-  .portfolio li {
-    display: grid; gap: 0.25rem 2rem; grid-template-columns: 1fr;
-    padding: 1.25rem 0; border-bottom: 1px solid var(--mist);
-  }
   @media (min-width: 40rem) { .portfolio li { grid-template-columns: 14rem 1fr 8rem; } }
   .portfolio strong { font-weight: 700; font-size: 1.25rem; }
   .portfolio .stage { color: var(--pine); font-weight: 600; }
-
-  .contact h2 { max-width: 16ch; }
-  .contact a.mail { display: inline-block; margin-top: 2rem; font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 700; font-stretch: 105%; }
 
   footer { padding: 2rem 0; font-size: 0.9rem; border-top: 1px solid var(--mist); }
   footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
@@ -104,7 +99,7 @@
   <div class="hero">
     <div class="wrap">
       <h1>ST Ventures</h1>
-      <p>ST Ventures - musician, promoter, VST author.</p>
+      <p>Musician ; Events ; VST author</p>
     </div>
   </div>
 
@@ -134,22 +129,8 @@
       <a class="btn" href="#contact">Here</a>
         <div>
       <div>
-          
   </section>
   
-  
-  
-  <section id="portfolio" class="dark">
-    <div class="wrap">
-      <h2>Portfolio</h2>
-      <ul class="portfolio">
-        <li><strong>Company One</strong><span>Replace with a one-line description.</span><span class="stage">Seed</span></li>
-        <li><strong>Company Two</strong><span>Replace with a one-line description.</span><span class="stage">Pre-seed</span></li>
-        <li><strong>Company Three</strong><span>Replace with a one-line description.</span><span class="stage">Seed</span></li>
-      </ul>
-    </div>
-  </section>
-
   <section id="contact" class="contact">
     <div class="wrap">
       <h2>Building something? Tell us about it.</h2>
